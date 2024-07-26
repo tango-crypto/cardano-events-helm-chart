@@ -1,0 +1,40 @@
+replicaCount: 1
+
+image:
+  repository: javiertc86/cardano-events
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3000
+
+envSecretName: cardano-events-secret
+
+env:
+  NODE_ENV: development
+  NOTIFY_DBSYNC: false
+  DBSYNC_EVENTS: ""
+  OGMIOS_PORT: 1337
+  OGMIOS_TLS: false
+  NOTIFY_OGMIOS: true
+  OGMIOS_EVENTS: epoch,block,delegation,transaction,payment
+  KAFKA_CLIENT: stream-event
+  KAFKA_PORT: 9092
+  KAFKA_CONSUMER_GROUP: stream-event-consumer
+  NETWORK: testnet
+  REDIS_PORT: 6377
+  SCYLLA_KEYSPACE: cardanodb
+  SCYLLA_LOCAL_DATA_CENTER: datacenter1
+  DB_PORT: 5432
+  DB_NAME: cexplorer
+  DB_DEBUG: false
+  USE_RECOVERY_POINTS: false
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
