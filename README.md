@@ -7,6 +7,7 @@ Cardano events helm chart
 `helm uninstall cardano-events`
 
 Create `secrets.yaml`with the values
+```
 apiVersion: v1
 kind: Secret
 metadata:
@@ -25,3 +26,4 @@ data:
   REDIS_HOST: XXX
   SCYLLA_CONTACT_POINTS: XXX
   DB_HOST: XXX
+```
