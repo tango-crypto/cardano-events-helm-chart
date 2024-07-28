@@ -5,11 +5,13 @@ The first step is to install Helm
 To Install Helm on Mac and Linux follow the instructions below:
 
 **MacOS:**
+
 Install using Homebrew:
 ```
 brew install helm
 ```
 **Linux:**
+
 Download the Helm binary:
 ```
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
