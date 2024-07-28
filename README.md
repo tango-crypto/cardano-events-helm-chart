@@ -1,6 +1,6 @@
 ## Cardano events helm chart
 
-The first step is to install Helm 
+The first step is to install Helm. Helm is a package manager for Kubernetes that simplifies the deployment and management of applications on Kubernetes clusters.
 
 To Install Helm on Mac and Linux follow the instructions below:
 
