@@ -1,4 +1,4 @@
-## Cardano events helm chart
+## Cardano-events Helm chart
 
 The first step is to install Helm. Helm is a package manager for Kubernetes that simplifies the deployment and management of applications on Kubernetes clusters.
 
