@@ -4,7 +4,7 @@ The first step is to install Helm
 
 To Install Helm on Mac and Linux follow the instructions below:
 
-### MacOS:
+*MacOS*:
 Install using Homebrew:
 ```
 brew install helm
