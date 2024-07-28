@@ -16,7 +16,7 @@ Download the Helm binary:
 ```bash
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 ```
-For more details, refer to the official <a href="https://helm.sh/docs/intro/install/" target="_blank">Helm Installation Guide</a>.
+For more details, refer to the official <a href="https://helm.sh/docs/intro/install/" target="_blank" rel="noopener noreferrer">Helm Installation Guide</a>.
 
 
 ## Secrets encoding
