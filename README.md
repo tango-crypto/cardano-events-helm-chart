@@ -1,5 +1,22 @@
 ## Cardano events helm chart
 
+The first step is to install Helm 
+
+To Install Helm on Mac and Linux follow the instructions below:
+
+MacOS:
+Install using Homebrew:
+```
+brew install helm
+```
+Linux:
+Download the Helm binary:
+```
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+```
+For more details, refer to the official Helm installation guide: <a href="https://helm.sh/docs/intro/install/" target="_blank">Helm Installation Guide</a>.
+
+
 ## Secrets encoding
 Kubernetes requires secret data to be base64 encoded to ensure that it can handle arbitrary binary data in a text-based format. This encoding ensures data integrity during transport and storage.
 
