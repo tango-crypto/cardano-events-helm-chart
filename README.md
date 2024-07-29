@@ -2,7 +2,7 @@
 
 ## Build docker images
 
-Here we are going to build the Docker image for Cardano-api (https://github.com/tango-crypto/cardano-events)
+Here we are going to build the Docker image for Cardano-events (https://github.com/tango-crypto/cardano-events)
 
 ### Build the Docker image
 ```bash 
